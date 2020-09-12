@@ -8,3 +8,89 @@ This imports the `reset.css` file */
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
   }
+  /* Header */
+.header {
+    width: 100%;
+    height: 4em;
+    padding: 0 0.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+  }
+   
+  .header-logo {
+    width: 9em;
+    display: flex;
+  }
+  .button {
+    pointer-events: none;
+    width: 9em;
+    height:7em;
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    margin-right: 1em;
+    align-self: center;
+  }
+  .logo {
+    width: 7em;
+    height: 7em;
+    align-self: center;
+  }
+  
+  .search {
+    display: flex;
+    width: 39em;
+    height: 3em;
+    border-radius: 4px 0px;
+    border: 1px solid rgb(255, 255, 255);
+    position: relative;
+    align-self: center;
+  }
+  
+  .search-box {
+    position: relative;
+    align-self: center;
+    height: 2.3em;
+    width: 90%;
+    box-shadow: 2.63em;
+    font-size: 0.956em;
+    padding-left: 0.375em;
+  }
+  
+  .search-icon {
+    width: 10%;
+    height: 2.39em;
+    position: absolute;
+    top: 0.432em;
+    left: 33.19em;
+  }
+  
+  .s-icon {
+    width: 2em;
+    height: auto;
+  }
+  
+  .header-icon {
+    align-self: center;
+    height: 3em;
+    width: 12.4em;
+  }
+  
+  .icon {
+    pointer-events: none;
+    width: 2.1em;
+    height: 2.4em;
+    padding: 0.25em;
+    cursor: pointer;
+    color: rgb(96, 96, 96);
+    position: relative;
+    margin-left: 0.4em;
+  }
+  
+  .image {
+    height: auto;
+    width: 2.3em;
+    border-radius: 50%;
+    margin-left: 0.75em;
+  }
