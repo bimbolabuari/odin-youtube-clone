@@ -289,3 +289,55 @@ This imports the `reset.css` file */
   font-size: 14px;
   align-items: flex-start;
 }
+
+/* Comment section */
+
+.comment-section {
+  display: inline-block;
+  width: 100%;
+  
+}
+.comment-head {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.98em;
+  justify-content: space-between;
+  margin: 1.18em 0em;
+}
+.img-radius {
+  display: inline-block;
+  background-color: rgb(240, 7, 7);
+  color: rgb(255, 255, 255);
+  border-radius: 50%;
+  width: 4.9rem;
+  height: 4.9rem;
+  font-size: 2.9em;
+  text-align: center;
+}
+.add-comment {
+  display: inline-block;
+  margin-left: 0.78em;
+  font-size: 0.89em;
+
+}
+.other-comment {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  font-size: 0.98em;
+  justify-content: space-between;
+  margin: 1.18em 0em;
+ 
+}
+.comment-image {
+  border-radius: 50%;
+  width: 2.9rem;
+  height: 2.9rem;
+}
+.comment-block {
+font-size: 0.98em;
+}
+.comment-reply, .comment-replies {
+  margin: 0.987em 0em;
+}
