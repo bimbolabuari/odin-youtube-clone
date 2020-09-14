@@ -341,3 +341,47 @@ font-size: 0.98em;
 .comment-reply, .comment-replies {
   margin: 0.987em 0em;
 }
+
+/* Media queries */
+@media screen and (max-width: 1066px) {
+  .text {
+    margin-top: 1.8em;
+    font-size: 0.999em;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .video,
+  .aside-container , .comment-section{
+    display: block;
+    width: 90%;
+    margin: 1.25em auto;
+    position: static;
+  }
+
+  .search-icon {
+    width: 10%;
+    height: 2.39em;
+    position: ;
+    top: 0.432em;
+    left: 33.09em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-icon,
+  .icon,
+  .image {
+    display: none;
+  }
+
+  .btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: rgb(144, 144, 144);
+    width: 100%;
+    align-items: center;
+    margin: 1.25em 0em;
+  } 
+}
