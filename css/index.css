@@ -87,10 +87,205 @@ This imports the `reset.css` file */
     position: relative;
     margin-left: 0.4em;
   }
-  
+
   .image {
     height: auto;
     width: 2.3em;
     border-radius: 50%;
     margin-left: 0.75em;
   }
+
+  /* main page */
+
+.container {
+  background-color: rgb(250,250,250);
+  margin: 1em auto;
+  width: 100%;
+  position: static;
+}
+
+.video {
+  display: inline-block;
+  width: 50%;
+  height: 50em;
+  margin-left: 10%;
+  position: relative;
+  top: 1em;
+}
+
+.main-video {
+  width: 100%;
+  height: 22.5em;
+  margin-bottom: 1.25em;
+}
+
+.aside-container {
+  display: inline-block;
+  width: 30%;
+  margin-left: 3%;
+  position: relative;
+   top: -19.89em;
+
+}
+
+.like,
+.dislike,
+.share,
+.save,
+.toggle {
+  text-transform: uppercase;
+  width: 0.25em;
+  height: 0.25em;
+  color: rgb(144, 144, 144);
+  cursor: pointer;
+  font-size: 0.63em;
+  display: inline-block;
+  padding: 0.5em;
+}
+
+.play {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(24, 23, 23);
+  font-size:  0.88em;
+  padding-bottom: 0.94em;
+}
+.up-next {
+  align-items: flex-start;
+}
+
+.autoplay {
+  align-items: flex-end;
+}
+
+.h3 {
+  font-size: 0.58em;
+  margin-bottom: 4px;
+  color: rgb(3, 3, 3);
+  float: right;
+}
+
+.sub-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.odin-project {
+  color: rgb(3, 3, 3);
+  text-decoration-color: rgb(3, 3, 3);
+  text-decoration: none;
+  text-size-adjust: 100;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.98em;
+  line-height: 0.43em;
+}
+
+.link {
+  justify-content: start;
+}
+
+.subscribe {
+  background-color: rgb(204, 0, 0);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  border-radius: 2px;
+  padding: 0.63em;
+  margin: 0 4px;
+  height: 2.19em;
+  width: 6.25em;
+  border-style: none;
+  font: bolder 0.88em;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.show-more-text {
+  color: rgb(3, 3, 3);
+  width: 100%;
+  height: auto;
+  font: bold 0.88em/1.3em;
+  display: inline-block;
+}
+
+.show-more {
+  text-transform: uppercase;
+  text-size-adjust: 100%;
+  text-align: center;
+  overflow-wrap: break-word;
+  margin: 0.987em 0em;
+  letter-spacing: 0.007px;
+  font: bold 0.7em/0.8em;
+  display: inline-block;
+  cursor: pointer;
+  color: rgb(96, 96, 96);
+  
+
+}
+
+.aside-img {
+  display: inline-block;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2.19em;
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+
+.img-container,
+.text-container,
+.views,
+.years {
+  color: rgb(3, 3, 3);
+  text-decoration-line: none;
+}
+
+.text-container {
+  margin-left: 0.63em;
+  font-size: 0.83em;
+  line-height: 1.37em;
+}
+
+.svg {
+  width: 1.5em;
+  height: 1.53em;
+  background-color: rgb(255, 255, 255);
+  border-style: none;
+}
+
+.text {
+  color: rgb(3, 3, 3);
+  font: bold 1em/1.5em;
+  height: 1.3em;
+  text-shadow: none;
+  transform: none;
+  margin: 1.25em 0em;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: rgb(144, 144, 144);
+  width: 100%;
+  align-items: center;
+  margin: 1.25em 0em;
+}
+
+.right-icon {
+  font: bold 12px;
+  align-items: flex-end;
+}
+
+.left-icon {
+  font-size: 14px;
+  align-items: flex-start;
+}
