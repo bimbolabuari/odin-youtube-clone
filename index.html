@@ -1,148 +1,177 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Clone</title>
+    <link crossorigin="use-credentials" rel="stylesheet" href="./css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" /> 
-  <title>Youtube Clone</title>
-  <link rel="stylesheet" href="./css/index.css">
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
-</head>
+  <body>
+    <header class="header">
+      <nav class="header-logo">
+        <button class="button" type="button" aria-label="icon">
+          <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false">
+            <g>
+              <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
+            </g>
+          </svg>
+        </button>
+        <img src="./youtube.jpg" class="logo" alt="Youtube HomePages" />
+      </nav>
 
-<body>
-  <header class="header">
-    <nav class="header-logo">
-      <button class="button">
-        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false">
-          <g>
-            <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z"></path>
-          </g>
-        </svg>
-      </button>
-      <img src="./youtube.jpg" class="logo" alt="Youtube HomePages" />
-    </nav>
+      <form class="search">
+        <input aria-label="search input" type="text" placeholder="Search" class="search-box" />
+        <button class="search-icon" type="button" aria-label="icon">
+          <svg
+            viewBox="0 0 24 24"
+            preserveAspectRatio="xMidYMid meet"
+            focusable="false"
+            class="s-icon"
+          >
+            <g class="s-icon">
+              <path
+                d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
+                class="s-icon"
+              ></path>
+            </g>
+          </svg>
+        </button>
+      </form>
 
-    <form class="search">
-      <div class="search-box">
-        <input type="text" placeholder="Search" class="search-box">
-      </div>
-      <button class="search-icon">
-        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="s-icon">
-          <g class="s-icon">
+      <nav class="header-icon">
+        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="icon">
+          <g class="icon">
             <path
-              d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"
-              class="s-icon">
-            </path>
+              d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z"
+              class="icon"
+            ></path>
           </g>
         </svg>
-      </button>
-    </form>
+        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="icon">
+          <g class="icon">
+            <path
+              d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"
+              class="icon"
+            ></path>
+          </g>
+        </svg>
+        <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="icon">
+          <g class="icon">
+            <path
+              d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"
+              class="icon"
+            ></path>
+          </g>
+        </svg>
+        <img
+          src="https://yt3.ggpht.com/a-/AOh14GiqRYwAe2NEw_XszfWUJF_4AX1xkSye2dPoQWS6=s88-c-k-c0xffffffff-no-rj-mo"
+          class="image"
+          alt="Avatar image"
+        />
+      </nav>
+    </header>
 
-    <nav class="header-icon">
-      <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="icon">
-        <g class="icon">
-          <path
-            d="M17 10.5V7c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1v10c0 .55.45 1 1 1h12c.55 0 1-.45 1-1v-3.5l4 4v-11l-4 4zM14 13h-3v3H9v-3H6v-2h3V8h2v3h3v2z"
-            class="icon">
-          </path>
-        </g>
-      </svg>
-      <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="icon">
-        <g class="icon">
-          <path
-            d="M4 8h4V4H4v4zm6 12h4v-4h-4v4zm-6 0h4v-4H4v4zm0-6h4v-4H4v4zm6 0h4v-4h-4v4zm6-10v4h4V4h-4zm-6 4h4V4h-4v4zm6 6h4v-4h-4v4zm0 6h4v-4h-4v4z"
-            class="icon">
-          </path>
-        </g>
-      </svg>
-      <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="icon">
-        <g class="icon">
-          <path
-            d="M12 22c1.1 0 2-.9 2-2h-4c0 1.1.9 2 2 2zm6-6v-5c0-3.07-1.64-5.64-4.5-6.32V4c0-.83-.67-1.5-1.5-1.5s-1.5.67-1.5 1.5v.68C7.63 5.36 6 7.92 6 11v5l-2 2v1h16v-1l-2-2z"
-            class="icon"></path>
-        </g>
-      </svg>
-      <img src="https://yt3.ggpht.com/a-/AOh14GiqRYwAe2NEw_XszfWUJF_4AX1xkSye2dPoQWS6=s88-c-k-c0xffffffff-no-rj-mo"
-        class="image" alt="Avatar image" />
-    </nav>
-    </div>
-  </header>
-
-  <main class="container">
-    <section class="video">
-      <div>
-        <div>
-          <iframe src="https://www.youtube.com/embed/V74l_zS1x8E" frameborder="0" class="main-video"
-            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    <main class="container">
+      <section class="video">
+        <header>
+          <iframe
+            src="https://www.youtube.com/embed/V74l_zS1x8E"
+            class="main-video"
+            title="main-video"
+          >
           </iframe>
-        </div>
-        <div>
           <h1 class="text">Contributing to Open Source Part I: The Easy Way</h1>
-        </div>
+        </header>
         <div class="btn">
           <div class="left-icon">
             <span>59,095 views</span>
             <span>•</span>
             <span>Feb 27, 2014</span>
           </div>
-
           <div class="right-icon">
-            <a>
-              <button class="like">
+            <div>
+              <button class="like" type="button" aria-label="icon">
                 <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false">
                   <g class="like">
                     <path
                       d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                      class="like"></path>
+                      class="like"
+                    ></path>
                   </g>
                 </svg>
               </button>
-
               <span>436</span>
-            </a>
-            <a>
-              <button class="dislike">
-                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="dislike">
+            </div>
+            <div>
+              <button class="dislike" type="button" aria-label="icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  class="dislike"
+                >
                   <g class="dislike">
                     <path
                       d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                      class="dislike"></path>
+                      class="dislike"
+                    ></path>
                   </g>
                 </svg>
               </button>
               <span>19</span>
-            </a>
+            </div>
 
-            <a>
-              <button class="share">
-                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="share">
+            <div>
+              <button class="share" type="button" aria-label="icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  class="share"
+                >
                   <g class="share">
-
                     <path
                       d="M11.7333 8.26667V4L19.2 11.4667L11.7333 18.9333V14.56C6.4 14.56 2.66667 16.2667 0 20C1.06667 14.6667 4.26667 9.33333 11.7333 8.26667Z"
-                      class="share"></path>
+                      class="share"
+                    ></path>
                   </g>
                 </svg>
               </button>
               <span>SHARE</span>
-            </a>
+            </div>
 
-            <a>
-              <button class="save">
-                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false" class="save">
+            <div>
+              <button class="save" type="button" aria-label="icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  class="save"
+                >
                   <g class="save">
-                    <path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"
-                      class="save"></path>
+                    <path
+                      d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"
+                      class="save"
+                    ></path>
                   </g>
                 </svg>
               </button>
               <span>SAVE</span>
-            </a>
+            </div>
 
-            <a>
-              <button class="toggle">
-                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false"
-                  class="toggle">
+            <div>
+              <button class="toggle" type="button" aria-label="icon">
+                <svg
+                  viewBox="0 0 24 24"
+                  preserveAspectRatio="xMidYMid meet"
+                  focusable="false"
+                  class="toggle"
+                >
                   <g class="toggle">
                     <circle cx="5" cy="12" r="2" class="toggle"></circle>
                     <circle cx="12" cy="12" r="2" class="toggle"></circle>
@@ -150,73 +179,85 @@
                   </g>
                 </svg>
               </button>
-            </a>
+            </div>
           </div>
         </div>
 
         <div class="sub-link">
           <div class="link">
-            <a href="#">
-              <img src="https://yt3.ggpht.com/a/AATXAJyfp0akR7PCq72FcsHL1DrLUbzqKet6_ZK6Nw=s48-c-k-c0xffffffff-no-rj-mo"
-                alt=" " class="img">
+            <a href="#" aria-label="channel logo">
+              <img
+                src="https://yt3.ggpht.com/a/AATXAJyfp0akR7PCq72FcsHL1DrLUbzqKet6_ZK6Nw=s48-c-k-c0xffffffff-no-rj-mo"
+                alt="channel-logo"
+                class="img"
+              />
             </a>
-            <a href="#" class="odin-project">The Odin Project</a>
+            <a href="#" class="channel-logo" aria-label="channel logo">The Odin Project</a>
           </div>
-
-          <button class="subscribe">
-            <div>Subscribe</div>
-          </button>
+          <button class="subscribe" type="button" aria-label="icon">Subscribe</button>
         </div>
 
         <div>
           <p class="show-more-text">
             How do you contribute to open source? In this video, I'll describe the easiest way to
             make a simple contribution to an open source project -- without using the command line,
-            a text editor, "forking a repo", or even touching Git outside of Github.
-            I'll also describe what kinds of contributions open source software projects are
-            typically looking for. As an example, I use submitting a student solution to a web
-            development exercise from The Odin Project, a free online curriculum for learning web
-            development with Ruby on Rails. You can find more information about that project at
+            a text editor, "forking a repo", or even touching Git outside of Github. I'll also
+            describe what kinds of contributions open source software projects are typically looking
+            for. As an example, I use submitting a student solution to a web development exercise
+            from The Odin Project, a free online curriculum for learning web development with Ruby
+            on Rails. You can find more information about that project at
           </p>
-          <a href="#" target="_blank">http://theodinproject.com</a>
+          <a href="#" target="_blank" aria-label="odin project website"
+            >http://theodinproject.com</a
+          >
         </div>
-        <div class="show-more">Show more</div>
-      </div>
-      <hr>
+        <p class="show-more">Show more</p>
+      </section>
+
       <section class="comment-section">
-        <div class="comment-head">
-          <span>2,493 Comments</span>
-          <span><i class="sort" aria-hidden="true"></i>
-            SORT BY</span>
-        </div>
+        <header class="comment-head">
+          <p>2,493 Comments</p>
+          <p>
+            <i class="sort" aria-hidden="true"></i>
+            SORT BY
+          </p>
+        </header>
         <div class="comment">
           <p class="img-radius">A</p>
           <p class="add-comment">Commenting publicly as Abimbola Buari</p>
         </div>
         <div class="other-comment">
-          <img class="comment-image"
-            src="https://yt3.ggpht.com/a/AATXAJw9qBcr_HoFZBncdAvuHe8A-JOgeKH2QOtZrw=s48-c-k-c0xffffffff-no-rj-mo">
+          <img
+            class="comment-image"
+            alt="Avatar image"
+            src="https://yt3.ggpht.com/a/AATXAJw9qBcr_HoFZBncdAvuHe8A-JOgeKH2QOtZrw=s48-c-k-c0xffffffff-no-rj-mo"
+          />
           <div class="comment-block">
-            <h3>Nnechi <span> 4 year ago</span></h3>
-            <p>I love this topic,Have been wanting to contribute to open source project for a long to]ime but dont know
-              how to go about it</p>
+            <h3>Nnechi<span> 4 year ago</span></h3>
+            <p>
+              I love this topic,Have been wanting to contribute to open source project for a long
+              to]ime but dont know how to go about it
+            </p>
             <div class="comment-reply">
               <i class="fas fa-thumbs-up" aria-hidden="true"></i>
-              <span class="thousands">3K</span>
-              <span class="reply">REPLY</span>
+              <p class="thousands">3K</p>
+              <p class="reply">REPLY</p>
               <p>View 32 replies</p>
             </div>
           </div>
         </div>
 
         <div class="other-comment">
-          <img class="comment-image"
+          <img
+            class="comment-image"
             src="https://yt3.ggpht.com/a/AATXAJw9qBcr_HoFZBncdAvuHe8A-JOgeKH2QOtZrw=s48-c-k-c0xffffffff-no-rj-mo"
-            alt=" ">
+            alt="Avatar image"
+          />
           <div class="comment-block">
             <h3>Adeyemi <span> 4 year ago</span></h3>
-            <p> Thumbs up!..really interesting topic,am an aspiring web developer that want to contribute to open
-              source.
+            <p>
+              Thumbs up!..really interesting topic,am an aspiring web developer that want to
+              contribute to open source.
             </p>
             <div class="comment-reply">
               <i class="fas fa-thumbs-up" aria-hidden="true"></i>
@@ -228,141 +269,158 @@
               <p>View 5 replies</p>
             </div>
           </div>
+        </div>
       </section>
-    </section>
 
-    <aside class="aside-container">
-      <div class="play">
-        <div class="up-next">Up next</div>
-        <div class="autoplay">AUTOPLAY</div>
-      </div>
-
-      <div class="card">
-        <div class="img-container">
-          <img class="aside-img" alt=""
-            src="https://i.ytimg.com/vi/k6KcaMffxac/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLBdfw_ZeNXlZLdcyyNPQgT8Trs23g">
+      <aside class="aside-container">
+        <div class="play">
+          <p class="up-next">Up next</p>
+          <p class="autoplay">AUTOPLAY</p>
         </div>
-        <div class="text-container">
-          <h3 class="h3">
-            'How to Get a Job at the Big 4 - Amazon, Facebook, Google &amp; Microsoft' by Sean Lee
-          </h3>
-          <div>
-            <div class="odin-project">SJ Tech</div>
+
+        <div class="card">
+          <div class="img-container">
+            <img
+              class="aside-img"
+              alt="SJ Tech"
+              src="https://i.ytimg.com/vi/k6KcaMffxac/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLBdfw_ZeNXlZLdcyyNPQgT8Trs23g"
+            />
+          </div>
+          <div class="text-container">
+            <h3 class="h3">
+              'How to Get a Job at the Big 4 - Amazon, Facebook, Google &amp; Microsoft' by Sean Lee
+            </h3>
             <div>
-              <i class="fas fa-check-circle" aria-hidden="true"></i>
-              <span class="view">3.2M
-                views</span> • <span class="years">3 years ago</span>
+              <p class="odin-project">SJ Tech</p>
+              <div>
+                <i class="fas fa-check-circle" aria-hidden="true"></i>
+                <p class="view">3.2M views</p>
+                •
+                <p class="years">3 years ago</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- video 2 -->
-      <div class="card">
-        <div class="img-container">
-          <img class="aside-img" alt=" "
-            src="https://i.ytimg.com/vi/C8LgvuEBraI/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCDKqr-fNrsaF1tm3UCBiCsL1oS0A">
-        </div>
-        <div class="text-container">
-          <h3 class="h3">
-            Contributing to Open Source Part II: The Real Way
-          </h3>
-          <div>
-            <div class="odin-project">The Odin Project</div>
+        <!-- video 2 -->
+        <div class="card">
+          <div class="img-container">
+            <img
+              class="aside-img"
+              alt="The odin-project"
+              src="https://i.ytimg.com/vi/C8LgvuEBraI/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCDKqr-fNrsaF1tm3UCBiCsL1oS0A"
+            />
+          </div>
+          <div class="text-container">
+            <h3 class="h3">
+              Contributing to Open Source Part II: The Real Way
+            </h3>
             <div>
-              <i class="fas fa-check-circle" aria-hidden="true"></i>
-              <span class="view">36K
-                views</span> • <span class="years">6 years ago</span>
+              <p class="odin-project">The Odin Project</p>
+              <div>
+                <i class="fas fa-check-circle" aria-hidden="true"></i>
+                <p class="view">36K views</p>
+                •
+                <p class="years">6 years ago</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- video 3 -->
-      <div class="card">
-        <div class="img-container">
-          <img class="aside-img" alt=""
-            src="https://i.ytimg.com/vi/mENDYhfxH-o/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCkfVRy7wF7AcX32H5fDmMUamnDZA">
-        </div>
-        <div class="text-container">
-          <h3 class="h3">
-            A Day in the Life of a Software Engineer | Python Freelancer
-          </h3>
-          <div>
-            <div class="odin-project">Clever Programmer</div>
+        <!-- video 3 -->
+        <div class="card">
+          <div class="img-container">
+            <img
+              class="aside-img"
+              alt="Clever Programmer"
+              src="https://i.ytimg.com/vi/mENDYhfxH-o/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCkfVRy7wF7AcX32H5fDmMUamnDZA"
+            />
+          </div>
+          <div class="text-container">
+            <h3 class="h3">
+              A Day in the Life of a Software Engineer | Python Freelancer
+            </h3>
             <div>
-              <i class="fas fa-check-circle" aria-hidden="true"></i>
-              <span class="view">188K
-                views</span> • <span class="years">1 year ago</span>
+              <p class="odin-project">Clever Programmer</p>
+              <div>
+                <i class="fas fa-check-circle" aria-hidden="true"></i>
+                <p class="view">188K views</p>
+                •
+                <p class="years">1 year ago</p>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-
-      <!-- video 4 -->
-      <div class="card">
-        <div class="img-container">
-          <img class="aside-img" alt=""
-            src="https://i.ytimg.com/vi/dSl_qnWO104/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLD4Fa0cYcyAtnQuf9aWV7YjB3GWbw">
-        </div>
-        <div class="text-container">
-          <h3 class="h3">
-            HTML Full Course - Build a Website Tutorial
-          </h3>
-          <div>
-            <div class="odin-project">freeCodeCamp.org</div>
+        <!-- video 4 -->
+        <div class="card">
+          <div class="img-container">
+            <img
+              class="aside-img"
+              alt="freeCodeCamp"
+              src="https://i.ytimg.com/vi/dSl_qnWO104/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLD4Fa0cYcyAtnQuf9aWV7YjB3GWbw"
+            />
+          </div>
+          <div class="text-container">
+            <h3 class="h3">
+              HTML Full Course - Build a Website Tutorial
+            </h3>
             <div>
-              <i class="fas fa-check-circle" aria-hidden="true"></i>
-              <span class="view">1.9M
-                views</span> • <span class="years">1 year ago</span>
+              <p class="odin-project">freeCodeCamp.org</p>
+              <div>
+                <i class="fas fa-check-circle" aria-hidden="true"></i>
+                <p class="view">1.9M views</p>
+                • <span class="years">1 year ago</span>
+              </div>
             </div>
           </div>
         </div>
-      </div <!-- video 5 -->
-      <div class="card">
-        <div class="img-container">
-          <img class="aside-img" alt=""
-            src="https://i.ytimg.com/vi/1jA1OEYmaIw/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCbwM0KkIVaQ44fQNSEmwl4J_xzcA">
-        </div>
-        <div class="text-container">
-          <h3 class="h3">
-            Google Data Center Security: 6 Layers Deep
-          </h3>
-          <div>
-            <div class="odin-project">Google Cloud Platform</div>
+        <!-- video 5 -->
+        <div class="card">
+          <div class="img-container">
+            <img
+              class="aside-img"
+              alt="Google cloud platform"
+              src="https://i.ytimg.com/vi/1jA1OEYmaIw/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCbwM0KkIVaQ44fQNSEmwl4J_xzcA"
+            />
+          </div>
+          <div class="text-container">
+            <h3 class="h3">
+              Google Data Center Security: 6 Layers Deep
+            </h3>
             <div>
-              <i class="fas fa-check-circle" aria-hidden="true"></i>
-              <span class="view">1.4M
-                views</span> • <span class="years">1 month ago</span>
+              <div class="odin-project">Google Cloud Platform</div>
+              <div>
+                <i class="fas fa-check-circle" aria-hidden="true"></i>
+                <span class="view">1.4M views</span> • <span class="years">1 month ago</span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- video 6 -->
-      <div class="card">
-        <div class="img-container">
-          <img class="aside-img" alt=""
-            src="https://i.ytimg.com/vi/xkzDaKwinA8/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLD0-U8sL0iWJygvhDBpJvVerJAoXg">
-        </div>
-        <div class="text-container">
-          <h3 class="h3">
-            jQuery Tutorial for Beginners #6 - jQuery Filters
-          </h3>
-          <div>
-            <div class="odin-project">The Net Ninja</div>
+        <!-- video 6 -->
+        <div class="card">
+          <div class="img-container">
+            <img
+              class="aside-img"
+              alt="Net Ninja"
+              src="https://i.ytimg.com/vi/xkzDaKwinA8/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLD0-U8sL0iWJygvhDBpJvVerJAoXg"
+            />
+          </div>
+          <div class="text-container">
+            <h3 class="h3">
+              jQuery Tutorial for Beginners #6 - jQuery Filters
+            </h3>
             <div>
-              <i class="fas fa-check-circle" aria-hidden="true"></i>
-              <span class="view">27K
-                views</span> • <span class="years">4 years ago</span>
+              <div class="odin-project">The Net Ninja</div>
+              <div>
+                <i class="fas fa-check-circle" aria-hidden="true"></i>
+                <span class="view">27K views</span> • <span class="years">4 years ago</span>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </aside>
-  </main>
-
-</body>
-
+      </aside>
+    </main>
+  </body>
 </html>
