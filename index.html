@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube Clone</title>
-    <link crossorigin="use-credentials" rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/index.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap"
       rel="stylesheet"
@@ -21,7 +21,7 @@
             </g>
           </svg>
         </button>
-        <img src="./youtube.jpg" class="logo" alt="Youtube HomePages" />
+        <img src="./Image/youtube.jpg" class="logo" alt="Youtube HomePages" />
       </nav>
 
       <form class="search">
@@ -68,11 +68,7 @@
             ></path>
           </g>
         </svg>
-        <img
-          src="https://yt3.ggpht.com/a-/AOh14GiqRYwAe2NEw_XszfWUJF_4AX1xkSye2dPoQWS6=s88-c-k-c0xffffffff-no-rj-mo"
-          class="image"
-          alt="Avatar image"
-        />
+        <img src="./Image/abimbolayoutube.jpg" class="image" alt="Avatar image" />
       </nav>
     </header>
 
@@ -80,99 +76,85 @@
       <section class="video">
         <header>
           <iframe
-            src="https://www.youtube.com/embed/V74l_zS1x8E"
+            src="https://www.youtube.com/embed/9ODGKI_VAmE"
             class="main-video"
             title="main-video"
           >
           </iframe>
-          <h1 class="text">Contributing to Open Source Part I: The Easy Way</h1>
         </header>
-        <div class="btn">
-          <div class="left-icon">
-            <span>59,095 views</span>
-            <span>•</span>
-            <span>Feb 27, 2014</span>
-          </div>
-          <div class="right-icon">
-            <div>
-              <button class="like" type="button" aria-label="icon">
-                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false">
-                  <g class="like">
-                    <path
-                      d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
-                      class="like"
-                    ></path>
-                  </g>
-                </svg>
-              </button>
-              <span>436</span>
+        <div class="title">
+          <h1 class="text">Contributing to Open Source Part I: The Easy Way</h1>
+          <div class="btn">
+            <div class="left-icon">
+              <p>59,095 views<span> • </span>Feb 27, 2014</p>
             </div>
-            <div>
-              <button class="dislike" type="button" aria-label="icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  preserveAspectRatio="xMidYMid meet"
-                  focusable="false"
-                  class="dislike"
-                >
-                  <g class="dislike">
-                    <path
-                      d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
-                      class="dislike"
-                    ></path>
-                  </g>
-                </svg>
-              </button>
-              <span>19</span>
-            </div>
-
-            <div>
-              <button class="share" type="button" aria-label="icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  preserveAspectRatio="xMidYMid meet"
-                  focusable="false"
-                  class="share"
-                >
-                  <g class="share">
-                    <path
-                      d="M11.7333 8.26667V4L19.2 11.4667L11.7333 18.9333V14.56C6.4 14.56 2.66667 16.2667 0 20C1.06667 14.6667 4.26667 9.33333 11.7333 8.26667Z"
-                      class="share"
-                    ></path>
-                  </g>
-                </svg>
-              </button>
-              <span>SHARE</span>
-            </div>
-
-            <div>
-              <button class="save" type="button" aria-label="icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  preserveAspectRatio="xMidYMid meet"
-                  focusable="false"
-                  class="save"
-                >
-                  <g class="save">
-                    <path
-                      d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"
-                      class="save"
-                    ></path>
-                  </g>
-                </svg>
-              </button>
-              <span>SAVE</span>
-            </div>
-
-            <div>
+            <div class="right-icon">
+              <div class="icon-container">
+                <button class="like" type="button" aria-label="icon">
+                  <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false">
+                    <g>
+                      <path
+                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-1.91l-.01-.01L23 10z"
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
+                <span>436</span>
+              </div>
+              <div class="icon-container">
+                <button class="dislike" type="button" aria-label="icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="dislike"
+                  >
+                    <g>
+                      <path
+                        d="M15 3H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v1.91l.01.01L1 14c0 1.1.9 2 2 2h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 23l6.59-6.59c.36-.36.58-.86.58-1.41V5c0-1.1-.9-2-2-2zm4 0v12h4V3h-4z"
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
+                <span>19</span>
+              </div>
+              <div class="icon-container">
+                <button class="share" type="button" aria-label="icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="share"
+                  >
+                    <g>
+                      <path
+                        d="M11.7333 8.26667V4L19.2 11.4667L11.7333 18.9333V14.56C6.4 14.56 2.66667 16.2667 0 20C1.06667 14.6667 4.26667 9.33333 11.7333 8.26667Z"
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
+                <span>SHARE</span>
+              </div>
+              <div class="icon-container">
+                <button class="save" type="button" aria-label="icon">
+                  <svg
+                    viewBox="0 0 24 24"
+                    preserveAspectRatio="xMidYMid meet"
+                    focusable="false"
+                    class="save"
+                  >
+                    <g>
+                      <path
+                        d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"
+                      ></path>
+                    </g>
+                  </svg>
+                </button>
+                <span>SAVE</span>
+              </div>
               <button class="toggle" type="button" aria-label="icon">
-                <svg
-                  viewBox="0 0 24 24"
-                  preserveAspectRatio="xMidYMid meet"
-                  focusable="false"
-                  class="toggle"
-                >
-                  <g class="toggle">
+                <svg viewBox="0 0 24 24" preserveAspectRatio="xMidYMid meet" focusable="false">
+                  <g>
                     <circle cx="5" cy="12" r="2" class="toggle"></circle>
                     <circle cx="12" cy="12" r="2" class="toggle"></circle>
                     <circle cx="19" cy="12" r="2" class="toggle"></circle>
@@ -182,17 +164,12 @@
             </div>
           </div>
         </div>
-
         <div class="sub-link">
           <div class="link">
             <a href="#" aria-label="channel logo">
-              <img
-                src="https://yt3.ggpht.com/a/AATXAJyfp0akR7PCq72FcsHL1DrLUbzqKet6_ZK6Nw=s48-c-k-c0xffffffff-no-rj-mo"
-                alt="channel-logo"
-                class="img"
-              />
+              <img class="img" alt="channel-logo" src="./Image/freecodecampyoutube.jpg" />
             </a>
-            <a href="#" class="channel-logo" aria-label="channel logo">The Odin Project</a>
+            <a href="#" class="channel-logo" aria-label="channel logo">freeCodeCamp.org</a>
           </div>
           <button class="subscribe" type="button" aria-label="icon">Subscribe</button>
         </div>
@@ -212,66 +189,93 @@
           >
         </div>
         <p class="show-more">Show more</p>
-      </section>
 
-      <section class="comment-section">
-        <header class="comment-head">
-          <p>2,493 Comments</p>
-          <p>
-            <i class="sort" aria-hidden="true"></i>
-            SORT BY
-          </p>
-        </header>
-        <div class="comment">
-          <p class="img-radius">A</p>
-          <p class="add-comment">Commenting publicly as Abimbola Buari</p>
-        </div>
-        <div class="other-comment">
-          <img
-            class="comment-image"
-            alt="Avatar image"
-            src="https://yt3.ggpht.com/a/AATXAJw9qBcr_HoFZBncdAvuHe8A-JOgeKH2QOtZrw=s48-c-k-c0xffffffff-no-rj-mo"
-          />
-          <div class="comment-block">
-            <h3>Nnechi<span> 4 year ago</span></h3>
-            <p>
-              I love this topic,Have been wanting to contribute to open source project for a long
-              to]ime but dont know how to go about it
-            </p>
-            <div class="comment-reply">
-              <i class="fas fa-thumbs-up" aria-hidden="true"></i>
-              <p class="thousands">3K</p>
-              <p class="reply">REPLY</p>
-              <p>View 32 replies</p>
+        <section class="comment-section">
+          <header class="comment-head">
+            <p class="comment">2,493 Comments</p>
+            <p class="sort">SORT BY</p>
+          </header>
+          <div class="comments">
+            <img src="./Image/abimbolayoutube.jpg" class="comment-img" alt="Avatar image" />
+            <p class="add-comment">Commenting publicly as Abimbola Buari</p>
+          </div>
+          <div class="other-comment">
+            <img class="comment-image" alt="avatar image" src="./Image/commentyoutube.jpg" />
+            <div class="comment-block">
+              <h3>Nnechi<span> 4 year ago</span></h3>
+              <p>
+                I love this topic,Have been wanting to contribute to open source project for a long
+                to]ime but dont know how to go about it
+              </p>
+              <div class="comment-reply">
+                <p class="thousands">3K</p>
+                <p class="reply">REPLY</p>
+                <p>View 32 replies</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="other-comment">
-          <img
-            class="comment-image"
-            src="https://yt3.ggpht.com/a/AATXAJw9qBcr_HoFZBncdAvuHe8A-JOgeKH2QOtZrw=s48-c-k-c0xffffffff-no-rj-mo"
-            alt="Avatar image"
-          />
-          <div class="comment-block">
-            <h3>Adeyemi <span> 4 year ago</span></h3>
-            <p>
-              Thumbs up!..really interesting topic,am an aspiring web developer that want to
-              contribute to open source.
-            </p>
-            <div class="comment-reply">
-              <i class="fas fa-thumbs-up" aria-hidden="true"></i>
-              <span class="thousands">8K</span>
-              <span class="reply">REPLY</span>
-            </div>
-            <div class="comment-replies">
-              <i class="fas fa-sort-down" aria-hidden="true"></i>
-              <p>View 5 replies</p>
+          <div class="other-comment">
+            <img class="comment-image" src="./Image/comment2youtube.jpg" alt="Avatar image" />
+            <div class="comment-block">
+              <h3>Adeyemi <span> 4 year ago</span></h3>
+              <p>
+                Thumbs up!..really interesting topic,am an aspiring web developer that want to
+                contribute to open source.
+              </p>
+              <div class="comment-reply">
+                <i class="fas fa-thumbs-up" aria-hidden="true"></i>
+                <span class="thousands">8K</span>
+                <span class="reply">REPLY</span>
+              </div>
+              <div class="comment-replies">
+                <i class="fas fa-sort-down" aria-hidden="true"></i>
+                <p>View 5 replies</p>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
 
+          <div class="other-comment">
+            <img class="comment-image" src="./Image/commentyoutube.jpg" alt="Avatar image" />
+            <div class="comment-block">
+              <h3>Adeyemi <span> 4 year ago</span></h3>
+              <p>
+                Thumbs up!..really interesting topic,am an aspiring web developer that want to
+                contribute to open source.
+              </p>
+              <div class="comment-reply">
+                <i class="fas fa-thumbs-up" aria-hidden="true"></i>
+                <span class="thousands">8K</span>
+                <span class="reply">REPLY</span>
+              </div>
+              <div class="comment-replies">
+                <i class="fas fa-sort-down" aria-hidden="true"></i>
+                <p>View 5 replies</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="other-comment">
+            <img class="comment-image" src="./Image/comment2youtube.jpg" alt="Avatar image" />
+            <div class="comment-block">
+              <h3>Adeyemi <span> 4 year ago</span></h3>
+              <p>
+                Thumbs up!..really interesting topic,am an aspiring web developer that want to
+                contribute to open source.
+              </p>
+              <div class="comment-reply">
+                <i class="fas fa-thumbs-up" aria-hidden="true"></i>
+                <span class="thousands">8K</span>
+                <span class="reply">REPLY</span>
+              </div>
+              <div class="comment-replies">
+                <i class="fas fa-sort-down" aria-hidden="true"></i>
+                <p>View 5 replies</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
       <aside class="aside-container">
         <div class="play">
           <p class="up-next">Up next</p>
@@ -280,144 +284,151 @@
 
         <div class="card">
           <div class="img-container">
-            <img
-              class="aside-img"
-              alt="SJ Tech"
-              src="https://i.ytimg.com/vi/k6KcaMffxac/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLBdfw_ZeNXlZLdcyyNPQgT8Trs23g"
-            />
+            <img class="aside-img" alt="SJ Tech" src="./Image/asideyoutube.jpg" />
           </div>
           <div class="text-container">
             <h3 class="h3">
               'How to Get a Job at the Big 4 - Amazon, Facebook, Google &amp; Microsoft' by Sean Lee
             </h3>
-            <div>
-              <p class="odin-project">SJ Tech</p>
-              <div>
-                <i class="fas fa-check-circle" aria-hidden="true"></i>
-                <p class="view">3.2M views</p>
-                •
-                <p class="years">3 years ago</p>
-              </div>
-            </div>
+            <p class="views">SJ Tech</p>
+            <p class="views">3.2M views<span> • </span>3 years ago</p>
           </div>
         </div>
 
         <!-- video 2 -->
         <div class="card">
           <div class="img-container">
-            <img
-              class="aside-img"
-              alt="The odin-project"
-              src="https://i.ytimg.com/vi/C8LgvuEBraI/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCDKqr-fNrsaF1tm3UCBiCsL1oS0A"
-            />
+            <img class="aside-img" alt="The odin-project" src="./Image/aside2youtube.jpg" />
           </div>
           <div class="text-container">
             <h3 class="h3">
               Contributing to Open Source Part II: The Real Way
             </h3>
-            <div>
-              <p class="odin-project">The Odin Project</p>
-              <div>
-                <i class="fas fa-check-circle" aria-hidden="true"></i>
-                <p class="view">36K views</p>
-                •
-                <p class="years">6 years ago</p>
-              </div>
-            </div>
+            <p class="views">The Odin Project</p>
+            <p class="views">36K views<span> • </span>6 years ago</p>
           </div>
         </div>
 
         <!-- video 3 -->
         <div class="card">
           <div class="img-container">
-            <img
-              class="aside-img"
-              alt="Clever Programmer"
-              src="https://i.ytimg.com/vi/mENDYhfxH-o/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCkfVRy7wF7AcX32H5fDmMUamnDZA"
-            />
+            <img class="aside-img" alt="Clever Programmer" src="./Image/aside3youtube.jpg" />
           </div>
           <div class="text-container">
             <h3 class="h3">
               A Day in the Life of a Software Engineer | Python Freelancer
             </h3>
-            <div>
-              <p class="odin-project">Clever Programmer</p>
-              <div>
-                <i class="fas fa-check-circle" aria-hidden="true"></i>
-                <p class="view">188K views</p>
-                •
-                <p class="years">1 year ago</p>
-              </div>
-            </div>
+            <p class="views">Clever Programmer</p>
+            <p class="views">188K views<span> • </span>1 year ago</p>
           </div>
         </div>
 
         <!-- video 4 -->
         <div class="card">
           <div class="img-container">
-            <img
-              class="aside-img"
-              alt="freeCodeCamp"
-              src="https://i.ytimg.com/vi/dSl_qnWO104/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLD4Fa0cYcyAtnQuf9aWV7YjB3GWbw"
-            />
+            <img class="aside-img" alt="freeCodeCamp" src="./Image/aside4youtube.jpg" />
           </div>
           <div class="text-container">
             <h3 class="h3">
               HTML Full Course - Build a Website Tutorial
             </h3>
-            <div>
-              <p class="odin-project">freeCodeCamp.org</p>
-              <div>
-                <i class="fas fa-check-circle" aria-hidden="true"></i>
-                <p class="view">1.9M views</p>
-                • <span class="years">1 year ago</span>
-              </div>
-            </div>
+            <p class="views">freeCodeCamp.org</p>
+            <p class="views">1.9M views<span> . </span>1 year ago</p>
           </div>
         </div>
         <!-- video 5 -->
         <div class="card">
           <div class="img-container">
-            <img
-              class="aside-img"
-              alt="Google cloud platform"
-              src="https://i.ytimg.com/vi/1jA1OEYmaIw/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLCbwM0KkIVaQ44fQNSEmwl4J_xzcA"
-            />
+            <img class="aside-img" alt="Google cloud platform" src="./Image/aside5youtube.jpg" />
           </div>
           <div class="text-container">
             <h3 class="h3">
               Google Data Center Security: 6 Layers Deep
             </h3>
-            <div>
-              <div class="odin-project">Google Cloud Platform</div>
-              <div>
-                <i class="fas fa-check-circle" aria-hidden="true"></i>
-                <span class="view">1.4M views</span> • <span class="years">1 month ago</span>
-              </div>
-            </div>
+            <p class="views">Google Cloud Platform</p>
+            <p class="views">1.4M views<span> • </span>1 month ago</p>
           </div>
         </div>
 
         <!-- video 6 -->
         <div class="card">
           <div class="img-container">
-            <img
-              class="aside-img"
-              alt="Net Ninja"
-              src="https://i.ytimg.com/vi/xkzDaKwinA8/hqdefault.jpg?sqp=-oaymwEYCKgBEF5IVfKriqkDCwgBFQAAiEIYAXAB&amp;rs=AOn4CLD0-U8sL0iWJygvhDBpJvVerJAoXg"
-            />
+            <img class="aside-img" alt="Net Ninja" src="./Image/asideyoutube.jpg" />
           </div>
           <div class="text-container">
             <h3 class="h3">
               jQuery Tutorial for Beginners #6 - jQuery Filters
             </h3>
-            <div>
-              <div class="odin-project">The Net Ninja</div>
-              <div>
-                <i class="fas fa-check-circle" aria-hidden="true"></i>
-                <span class="view">27K views</span> • <span class="years">4 years ago</span>
-              </div>
-            </div>
+            <p class="views">The Net Ninja</p>
+            <p class="views">27K views<span> • </span>4 years ago</p>
+          </div>
+        </div>
+
+        <!-- video 7 -->
+        <div class="card">
+          <div class="img-container">
+            <img class="aside-img" alt="net ninja" src="./Image/aside2youtube.jpg" />
+          </div>
+          <div class="text-container">
+            <h3 class="h3">
+              jQuery Tutorial for Beginners #6 - jQuery Filters
+            </h3>
+            <p class="views">The Net Ninja</p>
+            <p class="views">27K views<span> • </span>4 years ago</p>
+          </div>
+        </div>
+        <!-- video 8 -->
+        <div class="card">
+          <div class="img-container">
+            <img class="aside-img" alt="net ninja" src="./Image/aside3youtube.jpg" />
+          </div>
+          <div class="text-container">
+            <h3 class="h3">
+              jQuery Tutorial for Beginners #6 - jQuery Filters
+            </h3>
+            <p class="views">The Net Ninja</p>
+            <p class="views">27K views<span> • </span>4 years ago</p>
+          </div>
+        </div>
+        <!-- video 9 -->
+        <div class="card">
+          <div class="img-container">
+            <img class="aside-img" alt="net ninja" src="./Image/aside4youtube.jpg" />
+          </div>
+          <div class="text-container">
+            <h3 class="h3">
+              jQuery Tutorial for Beginners #6 - jQuery Filters
+            </h3>
+            <p class="views">The Net Ninja</p>
+            <p class="views">27K views<span> • </span>4 years ago</p>
+          </div>
+        </div>
+
+        <!-- video 9 -->
+        <div class="card">
+          <div class="img-container">
+            <img class="aside-img" alt="net ninja" src="./Image/aside5youtube.jpg" />
+          </div>
+          <div class="text-container">
+            <h3 class="h3">
+              jQuery Tutorial for Beginners #6 - jQuery Filters
+            </h3>
+            <p class="views">The Net Ninja</p>
+            <p class="views">27K views<span> • </span>4 years ago</p>
+          </div>
+        </div>
+
+        <!-- video 9 -->
+        <div class="card">
+          <div class="img-container">
+            <img class="aside-img" alt="net ninja" src="./Image/asideyoutube.jpg" />
+          </div>
+          <div class="text-container">
+            <h3 class="h3">
+              jQuery Tutorial for Beginners #6 - jQuery Filters
+            </h3>
+            <p class="views">The Net Ninja</p>
+            <p class="views">27K views<span> • </span>4 years ago</p>
           </div>
         </div>
       </aside>

@@ -1,6 +1,6 @@
-# Project Name
+# Odin-youtube-clone
 
-> One paragraph statement about the project.
+> MY project is about youtube clone using HTML and CSS.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,9 +8,8 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+- CSS
 
 ## Live Demo
 
@@ -28,7 +27,7 @@ git clone https://github.com/user/html-css-template.git
 - Install Dependencies
 
 ```bash
-npm run install
+npm install
 ```
 
 To run StyleLint by itself, you may run the lint task:
@@ -38,6 +37,7 @@ npm run lint:check
 ```
 
 Or to automatically fix issues found (where possible):
+1
 
 ```bash
 npm run lint

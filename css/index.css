@@ -13,121 +13,117 @@ This imports the `reset.css` file */
 /* Header */
 .header {
   width: 100%;
-  height: 4em;
+  height: 1.5em;
   padding: 0 0.5em;
   display: flex;
   flex-direction: row;
+  flex-wrap: nowrap;
   justify-content: space-between;
-  position: relative;
+  align-items: center;
+  margin-top: 0.9em;
 }
 
 .header-logo {
-  width: 9em;
+  width: 10%;
   display: flex;
+  justify-content: space-around;
+  justify-items: center;
 }
 
 .button {
   pointer-events: none;
-  width: 9em;
-  height: 7em;
+  width: 20%;
   background-color: rgb(255, 255, 255);
   border-style: none;
-  margin-right: 1em;
-  align-self: center;
+  margin-right: 10%;
+  margin-top: 3px;
 }
 
 .logo {
-  width: 7em;
-  height: 7em;
-  align-self: center;
+  width: 70%;
 }
 
 .search {
   display: flex;
-  width: 39em;
-  height: 3em;
-  border-radius: 4px 0;
-  border: 1px solid rgb(255, 255, 255);
-  position: relative;
-  align-self: center;
+  width: 50%;
+  border-radius: 3px 0;
+  align-items: center;
+  height: 2em;
 }
 
 .search-box {
-  position: relative;
-  align-self: center;
-  height: 2.3em;
   width: 90%;
-  font-size: 0.956em;
   padding-left: 0.375em;
+  height: 100%;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 2px #ccc;
+  font-size: 16px;
 }
 
 .search-icon {
   width: 10%;
-  height: 2.39em;
-  position: absolute;
-  top: 0.432em;
-  left: 33.19em;
+  height: 100%;
+  background-color: #f8f8f8;
+  border-radius: 0 2px 2px 0;
+  border: 1px solid #d3d3d3;
 }
 
 .s-icon {
-  width: 2em;
-  height: auto;
+  width: 20px;
+  height: 20px;
+  color: #333;
+  opacity: 0.6;
 }
 
 .header-icon {
-  align-self: center;
-  height: 3em;
-  width: 12.4em;
+  display: flex;
+  align-content: center;
+  width: 15%;
+  justify-content: space-evenly;
 }
 
 .icon {
   pointer-events: none;
-  width: 2.1em;
-  height: 2.4em;
-  padding: 0.25em;
+  width: 19%;
+  padding: 0.45em;
   cursor: pointer;
-  color: rgb(96, 96, 96);
-  position: relative;
-  margin-left: 0.4em;
+  color: #606060;
 }
 
 .image {
   height: auto;
-  width: 2.3em;
+  width: 20%;
   border-radius: 50%;
-  margin-left: 0.75em;
+  margin: 0% 5%;
 }
 
 /* main page */
 
 .container {
   background-color: rgb(250, 250, 250);
-  margin: 1em auto;
+  margin: 1% auto;
   width: 100%;
-  position: static;
+  display: flex;
 }
 
 .video {
   display: inline-block;
   width: 50%;
-  height: 50em;
   margin-left: 10%;
-  position: relative;
-  top: 1em;
+  margin-top: 2%;
 }
 
 .main-video {
   width: 100%;
   height: 22.5em;
-  margin-bottom: 1.25em;
 }
 
 .aside-container {
   display: inline-block;
   width: 30%;
-  margin-left: 3%;
-  position: relative;
-  top: -19.89em;
+  margin-left: 2%;
+  height: 100%;
+  margin-top: 2%;
 }
 
 .like,
@@ -136,13 +132,13 @@ This imports the `reset.css` file */
 .save,
 .toggle {
   text-transform: uppercase;
-  width: 0.25em;
-  height: 0.25em;
-  color: rgb(144, 144, 144);
+  width: 4.2em;
   cursor: pointer;
   font-size: 0.63em;
   display: inline-block;
-  padding: 0.5em;
+  color: #606060;
+  border-style: none;
+  background-color: rgb(250, 250, 250);
 }
 
 .play {
@@ -150,29 +146,37 @@ This imports the `reset.css` file */
   flex-direction: row;
   justify-content: space-between;
   color: rgb(24, 23, 23);
-  font-size: 0.88em;
-  padding-bottom: 0.94em;
+  font-size: 10px;
+  margin-bottom: 12px;
 }
 
 .up-next {
   align-items: flex-start;
+  font-size: 16px;
+  color: #030303;
+  font-weight: 400;
 }
 
 .autoplay {
   align-items: flex-end;
+  color: #606060;
+  font-size: 13px;
 }
 
 .h3 {
-  font-size: 0.58em;
+  font-size: 14px;
   margin-bottom: 4px;
-  color: rgb(3, 3, 3);
-  float: right;
+  color: #030303;
+  font-weight: 500;
 }
 
 .sub-link {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin-top: 12px;
 }
 
 .img {
@@ -183,12 +187,14 @@ This imports the `reset.css` file */
   color: rgb(3, 3, 3);
   cursor: pointer;
   display: inline-block;
-  font-size: 0.98em;
-  line-height: 0.43em;
+  text-decoration-line: none;
 }
 
 .link {
-  justify-content: start;
+  width: 28%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .subscribe {
@@ -208,45 +214,42 @@ This imports the `reset.css` file */
 }
 
 .show-more-text {
-  color: rgb(3, 3, 3);
+  color: #030303;
   width: 100%;
   height: auto;
-  font-weight: bold;
-  font-size: 0.88em;
-  line-height: 1.3em;
+  font-weight: 400;
+  font-size: 0.9em;
+  line-height: 1.6em;
   display: inline-block;
 }
 
 .show-more {
   text-transform: uppercase;
-  text-align: center;
-  overflow-wrap: break-word;
-  margin: 0.987em auto;
-  letter-spacing: 0.007px;
-  font-weight: bold;
-  font-size: 0.7em;
+  font-weight: 400;
+  font-size: 13px;
   line-height: 0.8em;
   display: inline-block;
   cursor: pointer;
-  color: rgb(96, 96, 96);
+  color: #606060;
+  margin-bottom: 2em;
 }
 
 .aside-img {
   display: inline-block;
+  width: 10em;
+  height: auto;
 }
 
 .card {
   display: flex;
   flex-direction: row;
-  margin-bottom: 2.19em;
-  border-bottom: 1px solid rgb(194, 194, 194);
+  padding: 0.9em 0;
+  border-bottom: 1px solid #eee;
 }
 
-.img-container,
-.text-container,
-.views,
-.years {
-  color: rgb(3, 3, 3);
+.views {
+  font-size: 13px;
+  color: #606060;
 }
 
 .text-container {
@@ -263,46 +266,69 @@ This imports the `reset.css` file */
 }
 
 .text {
-  color: rgb(3, 3, 3);
-  font-weight: bold;
-  font-size: 1em;
-  line-height: 0.5em;
-  height: 1.3em;
-  text-shadow: none;
-  transform: none;
-  margin: 1.25em auto;
+  color: #030303;
+  font-weight: 500;
+  font-size: 1.1em;
+}
+
+.title {
+  padding: 20px 0 8px;
+  border-bottom: 1px solid #eee;
 }
 
 .btn {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  color: rgb(144, 144, 144);
+  color: #606060;
   width: 100%;
   align-items: center;
-  margin: 1.25em 0;
 }
 
 .right-icon {
-  font-weight: bold;
-  font-size: 12px;
-  align-items: flex-end;
+  font-weight: 400;
+  font-size: 13px;
+  display: flex;
+  justify-content: space-between;
+  margin: 12px;
+  width: 60%;
 }
 
 .left-icon {
+  width: 30%;
   font-size: 14px;
-  align-items: flex-start;
+}
+
+.icon-container {
+  width: 18%;
+  display: flex;
+  align-items: center;
 }
 
 /* Comment section */
-
 .comment-section {
-  display: inline-block;
+  border-top: 1px solid #eee;
+}
+
+.sort {
+  color: #606060;
+  font-size: 14px;
+  width: 50%;
+}
+
+.comment {
+  display: flex;
+  width: 50%;
+}
+
+.comments {
+  display: flex;
   width: 100%;
+  justify-content: space-between;
 }
 
 .comment-head {
-  width: 40%;
+  width: 50%;
   display: flex;
   flex-direction: row;
   font-size: 0.98em;
@@ -322,9 +348,13 @@ This imports the `reset.css` file */
 }
 
 .add-comment {
-  display: inline-block;
-  margin-left: 0.78em;
-  font-size: 0.89em;
+  font-size: 14px;
+  color: #606060;
+  font-weight: 400;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+  width: 90%;
+  align-self: center;
 }
 
 .other-comment {
@@ -337,13 +367,20 @@ This imports the `reset.css` file */
 }
 
 .comment-image {
+  width: 2.9em;
+  height: 2.9em;
   border-radius: 50%;
-  width: 2.9rem;
-  height: 2.9rem;
+}
+
+.comment-img {
+  width: 3em;
+  border-radius: 50%;
 }
 
 .comment-block {
-  font-size: 0.98em;
+  color: #030303;
+  font-size: 13px;
+  margin-left: 9px;
 }
 
 .comment-reply,
@@ -352,41 +389,84 @@ This imports the `reset.css` file */
 }
 
 /* Media queries */
-@media screen and (max-width: 1066px) {
-  .text {
-    margin-top: 1.8em;
-    font-size: 0.999em;
-  }
-}
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 994px) {
   .video,
   .aside-container,
-  .comment-section {
+  .comment-section,
+  .container {
     display: block;
     width: 90%;
-    margin: 1.25em auto;
+    margin: 2em auto;
   }
 
+  .header-logo,
   .search-icon {
-    width: 10%;
+    width: 15%;
+  }
+
+  .header-icon {
+    width: 20%;
+  }
+
+  .icon {
+    width: 22%;
   }
 }
 
-@media screen and (max-width: 600px) {
-  .header-icon,
-  .icon,
-  .image {
+@media screen and (max-width: 698px) {
+  .header-logo {
+    width: 15%;
+  }
+
+  .button {
     display: none;
   }
 
-  .btn {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    color: rgb(144, 144, 144);
+  .header-icon {
+    width: 30%;
+  }
+
+  .left-icon,
+  .right-icon {
+    font-size: 11px;
+  }
+
+  .logo {
     width: 100%;
-    align-items: center;
-    margin: 1.25em 0;
+  }
+
+  .left-icon {
+    width: 40%;
+  }
+
+  .right-icon {
+    width: 58%;
+  }
+
+  .header {
+    margin: 0.9em 0.4em;
+  }
+
+  .search {
+    width: 50%;
+  }
+
+  .main-video {
+    height: 20em;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .left-icon {
+    display: none;
+  }
+
+  .right-icon {
+    width: 100%;
+  }
+
+  .main-video {
+    height: 13em;
   }
 }
