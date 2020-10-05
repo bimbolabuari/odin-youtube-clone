@@ -1,19 +1,22 @@
 # Odin-youtube-clone
 
-> MY project is about youtube clone using HTML and CSS.
+> This project is about embedding videos,images and using flexbox properties for positioning and also media query for responsiveness.
 
-![screenshot](./app_screenshot.png)
+![screenshot](./odin-yt-clone.png)
 
-Additional description about the project and its features.
 
 ## Built With
 
-- HTML
-- CSS
+- Hyper-text mark-up language
+- Cascading styling sheet
+- Mark-down language
+- CSS Flexbox
+- Media Query
+
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://deploy-preview-1--bimbola-youtube-clone.netlify.app/)
 
 ### Development (Running locally)
 
