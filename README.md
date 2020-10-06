@@ -4,7 +4,6 @@
 
 ![screenshot](./odin-yt-clone.png)
 
-
 ## Built With
 
 - Hyper-text mark-up language
@@ -12,7 +11,6 @@
 - Mark-down language
 - CSS Flexbox
 - Media Query
-
 
 ## Live Demo
 
