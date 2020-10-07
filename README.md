@@ -14,7 +14,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://deploy-preview-1--bimbola-youtube-clone.netlify.app/)
+[Live Demo Link](bimbola-youtube-clone.netlify.app/)
 
 ### Development (Running locally)
 
