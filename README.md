@@ -71,9 +71,9 @@ npm run html-validator
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@author](https://github.com/bimbolabuari)
+- Twitter: [@author](https://twitter.com/bimbolabuari)
+- Linkedin: [@author](https://www.linkedin.com/in/bimbolabuari)
 
 ## 🤝 Contributing
 
@@ -87,9 +87,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- Thanks to https://www.youtube.com ,all embedded videos,images and ideas comes from the website
+- Thanks to my mentor and tutor https://github.com/bolah2009
 
 ## 📝 License
 
