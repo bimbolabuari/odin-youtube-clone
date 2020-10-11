@@ -1,34 +1,41 @@
-# Project Name
+# Embedding videos and images: [Youtube](https://www.youtube.com) clone
 
-> One paragraph statement about the project.
+This project is about cloning youtube player that demonstrates the knowledge of HTML, embedding images and videos using iframe, CSS flexbox properties was used for layout and also CSS media query for responsiveness.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
+![screenshot](./odin-yt-clone.png)
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- HTML
+  - Semantic HTML
+  - HTML Forms
+- CSS
+  - CSS Flexbox for effective layout
+  - CSS Media query for responsiveness
+  - CSS Positioning
+- [Prettier](https://prettier.io/) for code formatting
+- [Stylelint](https://stylelint.io/) for CSS linting
+- [HTML Validator](https://validator.w3.org/) and [Webhint](https://webhint.io/)
+- [Github Actions for workflow](https://github.com/features/actions)
+- [Netlify for deployment](https://app.netlify.com/)
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://bimbola-youtube-clone.netlify.app/)
 
 ### Development (Running locally)
 
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone https://github.com/bimbolabuari/odin-youtube-clone.git
 
 ```
 
 - Install Dependencies
 
 ```bash
-npm run install
+npm install
 ```
 
 To run StyleLint by itself, you may run the lint task:
@@ -68,11 +75,11 @@ npm run html-validator
 - [JavaScript Style Guide](http://udacity.github.io/frontend-nanodegree-styleguide/javascript.html)
 - [Git Style Guide](https://udacity.github.io/git-styleguide/)
 
-## 👤 Author
+## 👤 Abimbola Buari Aminat
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@bimbolabuari](https://github.com/bimbolabuari)
+- Twitter: [@bimbolabuari](https://twitter.com/bimbolabuari)
+- Linkedin: [@bimbolabuari](https://www.linkedin.com/in/bimbolabuari)
 
 ## 🤝 Contributing
 
@@ -86,9 +93,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- [Youtube](https://www.youtube.com)
+- [@bolah2009](https://github.com/bolah2009)
 
 ## 📝 License
 
